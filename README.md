@@ -69,9 +69,13 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-07 | physical
 
+![physical](/day7/Physics_day7.png)
+
 ## Day 8 
 
 2021-04-08 | animals
+
+![animals](/day8/animals_day8.png)
 
 ## Day 9
 
