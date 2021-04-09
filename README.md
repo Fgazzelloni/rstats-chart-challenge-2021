@@ -81,6 +81,8 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-09 | statistics
 
+![statistics](/day9/stats.png)
+
 ## Day 10
 
 2021-04-10 | abstract
