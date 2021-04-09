@@ -7,7 +7,7 @@ library(ggridges)
 ##################################
 
 # remotes::install_github("BiologicalRecordsCentre/BRCindicators")
-vignette('BRCindicators')
+# vignette('BRCindicators')
 library(BRCindicators)
 
 data(bats)
@@ -35,7 +35,7 @@ animals_plot <- ggplot(data = bats, aes(x=collated_index,y=species,fill = specie
                                )+
   labs(x="Index", y="Bats species",
        title="How different Bats' species evolve in density?",
-       subtitle="Bats are one of the most likely species of whild animals involved with Covid19 Outbreak\n",
+       subtitle="Bats are one of the most likely species of whild animals involved with Covid19 Outbreak",
        caption="Viz Federica Gazzelloni - DataSource:BRCindicators - Day8\n ")+
   theme_minimal()+
   theme(text=element_text(family="Arial"),
