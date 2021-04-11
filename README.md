@@ -87,10 +87,13 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-10 | abstract
 
+![abstract](/day10/Abstract_day10.png)
+
 ## Day 11
 
 2021-04-11 | circular
 
+![circular](/day11/Circular_day11.png)
 
 ## Day 12
 
