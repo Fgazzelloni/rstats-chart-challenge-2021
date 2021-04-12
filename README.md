@@ -99,6 +99,8 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-12 | strips
 
+![strips](/day12/Strips_day12.png)
+
 
 # relationships
 
