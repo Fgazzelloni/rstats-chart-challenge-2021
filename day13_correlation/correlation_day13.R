@@ -22,7 +22,7 @@ theme_update(rect = element_rect(color = NA,
 
 ################# MANIPULATION ############################
 
-data<- read.csv(file="day13_correlation/cancer data for MOOC 1.csv", header = TRUE, sep = ',')
+data<- read.csv(file="cancer data for MOOC 1.csv", header = TRUE, sep = ',')
 sum(is.na(data))
 data[is.na(data)]<-0
 
@@ -38,12 +38,11 @@ corr2<-cor(corr_df[c(-6,-7)])
 ####################### PLOTTING ######################
 correlation <- ggcorrplot(corr,method="circle")+
   ggtitle(label="Cancer and contributing factors",
-  subtitle="Causation is multifactorial, and provide examples of modification of the risk factors through prevention. \nUnderstanding of population cancer aetiology interaction effects between risk factors and joint factors.\n'Evaluating intrinsic and non-intrinsic cancer risk factors' 2018\n(Wu, S., Zhu, W., Thompson, P. et al.)")+
+  subtitle="Causation is multifactorial, and provide examples of modification of the risk factors through prevention, \nunderstanding of population cancer aetiology interaction effects between risk factors and joint factors.\n'Evaluating intrinsic and non-intrinsic cancer risk factors' 2018\n(Wu, S., Zhu, W., Thompson, P. et al.)")+
 
   theme(plot.title = element_text(family="Courier New",size=14,face="bold",color="#460046"),
         plot.subtitle = element_text(family="Courier New",size=11),
-        axis.text = element_text(size=11,family="Courier New"),
-    legend.position = "top",
+        axis.text = element_text(size=11,family="Courier New",face="bold"),
     legend.title = element_text(size=8,family="Courier New"),
     legend.text = element_text(size=8,family="Courier New"))
     #plot.margin = margin(5,5,5,5))
@@ -51,7 +50,8 @@ correlation <- ggcorrplot(corr,method="circle")+
 
 correlation2<-ggcorrplot(corr2,hc.order = TRUE, type = "lower",
                          outline.col = "white",lab = TRUE)+
-  theme(legend.position = "none")
+  theme(legend.position = "none",
+        axis.text = element_text(size=11,family="Courier New",face="bold"))
 
 main_plot <-correlation + correlation2
 
