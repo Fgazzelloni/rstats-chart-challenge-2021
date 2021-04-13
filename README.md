@@ -29,39 +29,38 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-01 | part-to-whole
 
-![part-to-whole](/day1/The_Pudding_plot_w14.png)
+![part-to-whole](/day1_part-to-whole/The_Pudding_plot_w14.png)
 
 
 ## Day 2 
 
 2021-04-02 | pictogram
 
-![pictogram](/day2/covid19_icu.png)
+![pictogram](/day2_pictogram/covid19_icu.png)
 
 ## Day 3 
 
 2021-04-03 | historical
 
-![historical](/day3/Covid19_deaths.png)
+![historical](/day3_historical/Covid19_deaths.png)
 
 ## Day 4 
 
 2021-04-04 | magical
 
-![magical](/day4/magick.png)
+![magical](/day4_magical/magick.png)
 
 ## Day 5
 
 2021-04-05 | slope
 
-![slope](/day5/tidytuesday_slope.png)
+![slope](/day5_slope/tidytuesday_slope.png)
 
 ## Day 6
 
 2021-04-06 | experimental
 
-![experimental](/day6/Experiment_day6.png)
-
+![experimental](/day6_experimental/Experiment_day6.png)
 
 # distributions
 
@@ -69,37 +68,37 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-07 | physical
 
-![physical](/day7/Physics_day7.png)
+![physical](/day7_physical/Physics_day7.png)
 
 ## Day 8 
 
 2021-04-08 | animals
 
-![animals](/day8/animals_day8.png)
+![animals](/day8_animals/animals_day8.png)
 
 ## Day 9
 
 2021-04-09 | statistics
 
-![statistics](/day9/stats.png)
+![statistics](/day9_statistics/stats.png)
 
 ## Day 10
 
 2021-04-10 | abstract
 
-![abstract](/day10/Abstract_day10.png)
+![abstract](/day10_abstract/Abstract_day10.png)
 
 ## Day 11
 
 2021-04-11 | circular
 
-![circular](/day11/Circular_day11.png)
+![circular](/day11_circular/Circular_day11.png)
 
 ## Day 12
 
 2021-04-12 | strips
 
-![strips](/day12/Strips_day12.png)
+![strips](/day12_strips/Strips_day12.png)
 
 
 # relationships
@@ -107,6 +106,8 @@ Feel free to create a pull request with a link to your chart and code (optional)
 ## Day 13
 
 2021-04-13 | correlation
+
+![correlation](/day13_correlation/Correlation_day13.png)
 
 ## Day 14
 
