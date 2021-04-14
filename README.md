@@ -113,6 +113,8 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-14 | space
 
+![space](/day14_space/US_Post_office_space.png)
+
 ## Day 15
 
 2021-04-15 | multivariate
