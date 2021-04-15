@@ -119,6 +119,8 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-15 | multivariate
 
+![multivariate](/day15_multivariate/Multivariate_day15.png)
+
 ## Day 16
 
 2021-04-16 | trees
