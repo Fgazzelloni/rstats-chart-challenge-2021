@@ -125,14 +125,19 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-16 | trees
 
+![tree](/day16_tree/Tree_day16.png)
+
 ## Day 17
 
 2021-04-17 | pop culture
+
+![pop culture](/day17_pop_culture/pop_culture_day17.png)
 
 ## Day 18
 
 2021-04-18 | connections
 
+![connections](/day18_connections/connections_day18.png)
 
 # timeseries
 
@@ -140,25 +145,37 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-19 | global change
 
+![global change](/day19_global_change/global_change_day19.png)
+
 ## Day 20
 
 2021-04-20 | upwards
+
+![upwards](/day20_upwards/upwards_day20.png)
 
 ## Day 21
 
 2021-04-21 | downwards
 
+![downwards](/day21_downwards/downwards_day21.png)
+
 ## Day 22
 
 2021-04-22 | animation
+
+![animation](/day22_animation/animation_day22.png)
 
 ## Day 23
 
 2021-04-23 | tiles
 
+![tiles](/day23_tiles/tiles_day23.png)
+
 ## Day 24
 
 2021-04-24 | monochrome
+
+![monochrome](/day24_monochrome/monochrome_day24.png)
 
 
 # uncertainties
@@ -167,23 +184,38 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-25 | demographic
 
+![demographic](/day25_demographic/demographic_day25.png)
+
 ## Day 26
 
 2021-04-26 | trends
+
+![trends](/day26_trends/trends_day26.png)
 
 ## Day 27
 
 2021-04-27 | educational
 
+![educational](/day27_educational/educational_day27.png)
+
 ## Day 28
 
 2021-04-28 | future
+
+![future](/day28_future/future_day28.png)
 
 ## Day 29
 
 2021-04-29 | deviations
 
+![deviations](/day29_deviations/deviations_day29.png)
+
 ## Day 30
 
 2021-04-30 | 3D
+
+![3D](/day30_3D/3D_day30.png)
+
+
+
 
