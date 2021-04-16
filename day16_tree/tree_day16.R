@@ -3,17 +3,9 @@
 
 # load libraries ############################
 
-library(GGally)
-library(medflex)
-library(patchwork)
-library(extrafont)
-library(xkcd)
 
-library(tree)
-library(treemap)
-library(rpart)
-library(treethresh)
-library(ISLR)
+library(medflex)
+library(extrafont)
 
 library(ggplot2)
 library(ape)
