@@ -2,19 +2,13 @@
 
 
 # load libraries ############################
-
-
+library(dplyr)
+library(ggplot2)
 library(medflex)
 library(extrafont)
 
-library(ggplot2)
-library(ape)
-library(ggtree)
-library(tidytree)
-library(ggnewscale)
 library(treeio)
-library(ade4)
-library(cluster)
+library(ggtree)
 
 
 
@@ -47,7 +41,7 @@ str(UPBdata)
 
 UPBdata$UPB = as.factor(ifelse(UPBdata$UPB <= 0.4, "Low", "High"))
 
-my_UPB<-UPBdata%>%select(-2,-3)
+my_UPB<-UPBdata%>%dplyr::select(-2,-3)
 
 
 
@@ -72,7 +66,8 @@ main_plot<-ggtree(my_hc2, aes(color=group), layout='circular',ladderize=F) +
   geom_tiplab(size=1, aes(angle=angle)) +
   geom_point2(aes(subset=(node==1)), shape=21, size=5, fill='green')+
   ggtitle("Unwanted pursuit behavior: \nTree related to romantic relationship and breakup characteristics \non 385 individuals who divorced between March 2008 and March 2009")+
-  geom_text(label="")+
+  #geom_text(label="")+
+  #geom_text(data = labels, aes(x, y, label = edu), size = 5)+
   labs(subtitle="Strategies for the Estimation of Natural Direct and Indirect Effects of bad relationships",
        caption="Multivariate Behavioral Research, Viz Federica Gazzelloni Datasource: R Package medflex Tree Day 16")+
   theme_void() + 
