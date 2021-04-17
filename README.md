@@ -131,7 +131,7 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-17 | pop culture
 
-![pop culture](/day17_pop_culture/pop_culture_day17.png)
+![pop culture](/day17_pop_culture/Pop_culture_day17.png)
 
 ## Day 18
 
