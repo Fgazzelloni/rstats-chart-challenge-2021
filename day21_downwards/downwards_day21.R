@@ -4,36 +4,23 @@
 
 
 library(tidyverse)
-library(ggpol)
-library(gganimate)
-library(gifski)
 library(extrafont)
-
-
 
 options(scipen = 999)
 
-
-
 df <- read.delim("https://www.prdh.umontreal.ca/BDLC/data/que/Exposures_5x1.txt",sep="",skip=1)
 
-head(df)
-
 #df%>%ggplot(aes(x=Year,y=Total,group=Age,color=factor(Age)))+geom_line()
-
-plyr::count(df$Age)
 
 df$Age<-sub("1-4","01-04",df$Age)
 df$Age<-sub("5-9","05-09",df$Age)
 df$Age<-sub("905-099","95+",df$Age)
-
 
 my_df <- df%>%
   arrange(Year,desc(Age))%>%
   filter(!Age=="110+" & !Age=="100-104" & !Age=="105-109" & !Age=="0")%>%
   pivot_longer(cols=c("Female","Male"),names_to="Gender",values_to="Exposure")%>%
   select(-Total)
-
 
 my_df_plot <- my_df %>%
   ggplot(aes(x = Age, y = Exposure, fill = Gender)) +
