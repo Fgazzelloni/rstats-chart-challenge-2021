@@ -54,7 +54,7 @@ le_plot <- df%>%
           axis.text.y = element_text(family="Georgia",size = 10,face = 'bold',color =  "#035770"),
           axis.ticks = element_blank(),
           axis.title.y = element_text(family="Georgia",size = 16,face = 'bold',color =  "#035770"),
-          plot.margin = margin(5,5,5,5)
+          plot.margin = margin(10,10,10,10)
     )
   
   
@@ -65,9 +65,20 @@ final <-le_plot +
 
 
 
-animate(final,fps = 40,duration = 7,width = 1200,height = 1400,res = 120,
-  renderer = gifski_renderer("day22_animation/animation_day22.gif")
-)
+animate(final,gifski_renderer("day22_animation/animation_day22.gif"))
+
+
+
+
+anim_save(animate(final, nframes = 151, width = 9, height = 6.5, units = "in", res = 300), 
+          filename = "day22_animation/animation_day22.gif",
+          end_pause = 10, rewind = F, fps = 15)
+
+
+
+
+
+
 
 
 
