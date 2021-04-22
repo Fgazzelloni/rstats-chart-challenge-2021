@@ -163,7 +163,7 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-22 | animation
 
-![animation](/day22_animation/animation_day22.png)
+![animation](/day22_animation/animation_day22.gif)
 
 ## Day 23
 
