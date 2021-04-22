@@ -151,7 +151,7 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-20 | upwards
 
-![upwards](/day20_upwards/upwards_day20.png)
+![upwards](/day20_upwards/tidytuesday_NETFLIX.png)
 
 ## Day 21
 
