@@ -185,6 +185,7 @@ Feel free to create a pull request with a link to your chart and code (optional)
 2021-04-25 | demographic
 
 ![demographic](/day25_demographic/demographic_day25.png)
+![demographic](/day25_demographic/demographic_day25.gif)
 
 ## Day 26
 
