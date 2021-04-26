@@ -16,6 +16,7 @@ options(scipen = 999)
 
 # Data are from IHME healthdata.org for European Union countries, 5-year cat 
 # Population change 2010-2019
+# link to population data: http://ghdx.healthdata.org/record/ihme-data/gbd-2019-population-estimates-1950-2019
 #################### population ##################
 # data wrangling
 population2010 <- read.csv("IHME_GBD_2019_POP_2010_Y2020M10D15.csv")%>%
@@ -116,7 +117,10 @@ EU_pop<-EU_pop%>%rename(age=age_group_name)
 names(EU_pop)
 
 EU_pop <- EU_pop%>%
-  mutate(pop = ifelse(sex == 'male', as.integer(pop * -1), as.integer(pop)))
+  mutate(pop = ifelse(sex == 'female', as.integer(pop * -1), as.integer(pop)))
+
+s<-EU_pop%>%filter(age=="80+")
+
 
 range(EU_pop$pop)
 
@@ -128,13 +132,15 @@ EU_10_19_Pyramid <- EU_pop %>%
   scale_y_continuous(breaks = c(-20000000, -10000000, -5000000, 0, 5000000, 10000000, 20000000),
                      label = c("20M", "10M", "5M", "0", "5M", "15M", "20M")) +
   coord_flip() + 
-  labs(title = "EU Population Change (2010-2019)",
+  labs(title = "European Union Population \nchange 2010-2019\n\n{closest_state}",
        subtitle ="",
        y = "Population",
        caption = "@fgazzelloni | Data Source: IHME | Demographic Day25") +
   theme_ipsum() +
   theme(legend.position = "bottom",
-        plot.background = element_rect(fill = "springgreen") ,
+        plot.background = element_rect(fill = "palegreen") ,
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank(),
         axis.text = element_text(size = 12),
         legend.title = element_blank(),
         legend.key.size = unit(0.75, 'cm'),
@@ -156,6 +162,6 @@ EU_10_19_Pyramid <- EU_10_19_Pyramid +
   ease_aes('cubic-in-out')
 
 animate(EU_10_19_Pyramid,
-        fps = 40,duration = 7,width = 1200,height = 1400,res = 120,
+        fps = 40,duration = 5,width = 1200,height = 1400,res = 120,
         renderer = gifski_renderer('demographic_day25.gif'))
 
