@@ -1,12 +1,9 @@
 #
 
 library(tidyverse)
-library(ggcorrplot)
 library(ggforce)
-library(ggrepel)
 library(extrafont)
-library(hrbrthemes)
-library(showtext)
+
 
 
 options(scipen = 999)
