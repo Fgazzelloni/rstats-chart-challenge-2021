@@ -203,7 +203,7 @@ Feel free to create a pull request with a link to your chart and code (optional)
 
 2021-04-28 | future
 
-![future](/day28_future/future_day28.png)
+![future](/day28_future/tidytuesday_Departures.png)
 
 ## Day 29
 
