@@ -72,7 +72,7 @@ deviations_plot <- data_all_countries %>%
 
 ######### saving ###############################
 
-ragg::agg_png(here::here("day29_deviations", "deviations_day28.png"),
+ragg::agg_png(here::here("day29_deviations", "deviations_day29.png"),
               res = 320, width = 14, height = 8, units = "in")
 deviations_plot
 
