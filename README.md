@@ -3,6 +3,11 @@
 *A list of charts created for #30DayChartChallenge using #rstats*.
 To learn more about #30DayChartChallenge visit the [GitHub repository](https://github.com/Z3tt/30DayChartChallenge_2021) or our [Twitter account](https://twitter.com/30DayChartChall).
 
+# my contributions [Twitter: @fgazzelloni](https://twitter.com/fgazzelloni):
+
+- [TidyTuesday-2021](https://github.com/Fgazzelloni/TidyTuesday)
+- [30DayMapChallenge-2021](https://github.com/Fgazzelloni/30DayMapChallenge)
+
 ## How to contribute?
 
 Anyone is welcome to contribute.
